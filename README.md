@@ -29,7 +29,6 @@ and type the following command "./webpconvert <input_file> <output_file>"
 
 Remember here "input_file" name is just files name not its extension!
 
-I hope this helps you, regards :)
 ### Tags
 
 webpconvert <br>
