@@ -1,0 +1,27 @@
+HI THERE,
+
+
+
+
+###INTRODUCTION__________________________________________________________
+This is a simple bash script that i use to convert .webp file to .png
+it uses dwebp to complete its process.
+
+###HOW TO uses___________________________________________________________
+To execute this bash script U need to follow these introductions:
+
+Open webpconvert.sh file-properties and give it all executeable
+permisions or just open terminal in the directory where webpconvert
+tool is present and type the following command "chmod +x webpconvert".
+After giving executeable permissions follow this next step
+
+now you need to execute webpconvert file. You can do it by following
+ways:
+
+Right click on file and select execute (if that option is present)if not
+then open terminal in same directory in which your webpconvert present
+and type the following command "./webpconvert <input_file> <output_file>"
+
+Remember here "input_file" name is just files name not its extension!
+
+I hope this helps you, regards :)

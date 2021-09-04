@@ -1,0 +1,61 @@
+#! /bin/bash
+
+# Verson 1.0
+# Made by Harish Kumar
+# more info: https://github.com/Randomguy-8/mpegconvert
+
+#checking if webp is installed or not
+
+if [ -e /bin/dwebp ]
+then
+
+	#  checks if the input and outfut is empty or not. if it is then it throws a error
+	if [ -z $1 ] || [ -z $2 ]
+	then
+		echo
+		echo "<error>"
+		echo
+		echo "Usage: $0 <input_file> <output_file>  | Note here input file is just files name not its extension!"
+		echo
+
+	# cheks if webp file exist or not
+	elif [ -e $1.webp ]
+	then
+	dwebp $1.webp -o $2.png
+	echo
+	echo "done your file is now converted to png, enjoy!  :)"
+	echo "If you need any help: https://github.com/Randomguy-8" 
+
+	# error if file not exist 
+	else
+	echo
+	echo "<error>"
+	echo
+	echo "your file not exist!"
+	fi
+
+	# ask to install if webp not installed
+else
+	echo
+	echo "you need to install webp! | you can install it by \"sudo apt install dwebp\""
+	echo
+	echo "or we can even install it right now. Did you want to isntall?"
+	echo "press \"y\" if you want to install or \"n\" if you dont."
+
+	# getting answer from user
+	read yn
+	if [ $yn = "y" ] || [ $yn = "Y" ]
+	then
+		if [ -z $1 ] || [ -z $2 ]
+		then
+			exit 0
+		else
+			$0 $1 $2
+		fi
+	else
+		echo "as you wish"
+	fi
+
+
+fi 
+# end of script!
