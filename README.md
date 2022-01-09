@@ -1,7 +1,7 @@
 # WEBP to PNG converter
 
 
-WEBP - PNG converter is a bash tool that helps to convert `.m4a` media files to `.mp4`<br>
+WEBP - PNG converter is a bash tool that helps to convert `.webp` media files to `.png`<br>
 
 ## Dependency
 1) dwebp
