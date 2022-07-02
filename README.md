@@ -1,23 +1,16 @@
 # WEBP to PNG converter
 
 
-WEBP - PNG converter is a bash tool that helps to convert `.webp` media files to `.png`<br>
+WEBP-converter: Convert `.webp` media files to `.png`<br>
 
 ## Dependency
 1) dwebp
 
-## Installation:
-
-<b>To Run this tool, follow the introduction:</b>
-
-> cd to tool, and give it all executable permissions (`chmod +x webp_converter`).
-
-
-<b>now you need to execute webp_converter file. You can do it by following
-ways:</b>
-
->  Type (`./webp_converter <input_file> <output_file>`). Here `<input_file>` is source file and `<output_file>` is file you want as output.
-
+## Usage:
+```
+chmod +x webp_converter
+./webp_converter <File> <Output_File>
+```
 
 ## License
 ```MIT License
